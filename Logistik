@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloud-Native Transformation | STAR Case Study</title>
+  <meta name="description" content="STAR Case Study: Transformation einer monolithischen Logistik-Software zu einer Cloud-Native Plattform" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
+      margin: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #020617, #020617);
+      border-bottom: 1px solid #1e293b;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      max-width: 720px;
+      color: #cbd5f5;
+    }
+    main {
+      max-width: 960px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: #020617;
+      border-radius: 12px;
+      border: 1px solid #1e293b;
+    }
+    h2 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .stack span {
+      display: inline-block;
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 999px;
+      padding: 0.4rem 0.8rem;
+      margin: 0.3rem;
+      font-size: 0.85rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cloud-Native Transformation</h1>
+    <p>
+      STAR Case Study – Transformation einer monolithischen Softwarelandschaft
+      zu einer skalierbaren Cloud-Native Plattform im Logistik-Umfeld.
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Situation</h2>
+      <p>
+        Ein Logistik-Kunde betrieb eine historisch gewachsene monolithische Plattform.
+        Releases dauerten Monate, Skalierung war limitiert und neue digitale Produkte
+        ließen sich nur schwer integrieren.
+      </p>
+    </section>
+
+    <section>
+      <h2>Task</h2>
+      <p>
+        Verantwortung für Architekturstrategie, technische Transformation,
+        Migration, Teamaufbau und Coaching – mit dem Ziel, eine nachhaltige
+        Cloud-Native Plattform für bestehende und zukünftige Projekte zu schaffen.
+      </p>
+    </section>
+
+    <section>
+      <h2>Action</h2>
+      <ul>
+        <li>Architekturberatung und Entscheidungsfindung mit Management & Fachbereichen</li>
+        <li>Einführung einer Microservice-Architektur (Spring Boot, Kubernetes, DDD)</li>
+        <li>CI/CD, Infrastructure as Code, Feature Flags und Observability</li>
+        <li>Sichere Kommunikationsstrategie (OAuth2, mTLS, API-Gateways, Messaging)</li>
+        <li>Schrittweise Datenmigration mittels Change Data Capture</li>
+        <li>Coaching von Entwicklerteams und Einführung agiler Prozesse</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Result</h2>
+      <ul>
+        <li>Deutlich verkürzte Release-Zyklen</li>
+        <li>Skalierbare, stabile Cloud-Native Plattform</li>
+        <li>Autonome, produktive Entwicklungsteams</li>
+        <li>Technische Grundlage für zukünftige Digitalisierungsprojekte</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technology Stack</h2>
+      <div class="stack">
+        <span>Java 21</span>
+        <span>Spring Boot 3.3</span>
+        <span>Angular 17</span>
+        <span>Kafka</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>ArgoCD</span>
+        <span>Helm</span>
+        <span>Grafana</span>
+        <span>Prometheus</span>
+        <span>Loki</span>
+        <span>Jaeger</span>
+        <span>Keycloak</span>
+        <span>Azure AD</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Decisions & Trade-offs</h2>
+      <ul>
+        <li><strong>Strangler Pattern</strong> statt Big-Bang-Migration zur Risikominimierung</li>
+        <li><strong>DDD & Hexagonale Architektur</strong> für klare Domänenschnitte und Wartbarkeit</li>
+        <li><strong>CDC-basierte Migration</strong> zur Parallelisierung von Alt- und Neusystem</li>
+        <li><strong>API-First</strong> zur Entkopplung von Frontend und Backend</li>
+        <li><strong>Frühe Observability</strong> zur datenbasierten Architektur-Evolution</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Interview Takeaways</h2>
+      <ul>
+        <li>End-to-End-Ownership von Architektur bis Enablement der Teams</li>
+        <li>Skalierbarkeit, Sicherheit und Geschwindigkeit als Leitprinzipien</li>
+        <li>Technologie als Enabler für Business-Impact</li>
+        <li>Nachhaltiger Wissenstransfer statt Projektabhängigkeit</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>GitHub Pages • STAR Interview Case Study</p>
+  </footer>
+</body>
+</html>
